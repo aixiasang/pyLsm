@@ -1,0 +1,27 @@
+# PyLSM数据库依赖
+# 用于构建、测试和运行PyLSM
+
+# 布隆过滤器哈希函数
+mmh3>=3.0.0
+
+# 测试框架
+pytest>=7.0.0
+pytest-cov>=4.0.0
+
+# 开发工具
+black>=22.1.0
+isort>=5.10.1
+mypy>=0.931
+flake8>=4.0.1
+
+# 文档生成
+sphinx>=4.4.0
+sphinx-rtd-theme>=1.0.0
+
+# 性能测试
+memory-profiler>=0.60.0
+
+# 其他依赖
+typing-extensions>=4.0.0
+numpy>=1.20.0
+matplotlib>=3.5.0 
