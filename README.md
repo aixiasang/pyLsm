@@ -1,6 +1,6 @@
 # PyLSM: Python LSM树键值存储引擎
 
-PyLSM是一个基于LSM树(Log-Structured Merge Tree)架构的高性能键值存储引擎，使用Python实现。本项目不仅提供了高效的键值对存储和检索功能，还包含了布隆过滤器和分层压缩等高级特性，是学习数据库内核和存储引擎的理想教材。
+PyLSM是一个基于LSM树(Log-Structured Merge Tree)架构的高性能键值存储引擎，使用Python实现。本项目不仅提供了高效的键值对存储和检索功能，还包含了布隆过滤器和分层压缩等高级特性。
 
 ## 🌟 核心特性
 
@@ -37,7 +37,7 @@ PyLSM是一个基于LSM树(Log-Structured Merge Tree)架构的高性能键值存
 ```bash
 # 克隆项目
 git clone https://github.com/aixiasang/pyLsm.git
-cd rockes
+cd pyLsm
 
 # 安装依赖
 pip install -r requirements.txt
